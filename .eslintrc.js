@@ -5,7 +5,8 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    parser: '@typescript-eslint/parser'
+    parser: '@typescript-eslint/parser',
+    warnOnUnsupportedTypeScriptVersion: false
   },
   extends: [
     '@nuxtjs',
@@ -19,6 +20,7 @@ module.exports = {
     'prettier'
   ],
   rules: {
-    '@typescript-eslint/no-unused-vars': ["error", { "argsIgnorePattern": "^_" }]
+    '@typescript-eslint/no-unused-vars': ["error", { "argsIgnorePattern": "^_" }],
+    'prettier/prettier': "warn"
   }
 }
