@@ -1,3 +1,7 @@
+## v0.1.5
+* fix bug icon not display
+* change lint `prettier/prettier` to warn
+
 ## v0.1.4
 * use `data_services` layer
 
