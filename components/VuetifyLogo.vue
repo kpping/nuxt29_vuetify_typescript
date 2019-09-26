@@ -1,5 +1,5 @@
 <template>
-  <v-img src="/v.png" alt="vuetify logo" />
+  <v-img class="vuetify-logo" src="/v.png" alt="vuetify logo" />
 </template>
 
 <script lang="ts">
@@ -9,4 +9,8 @@ import { Component, Vue } from 'nuxt-property-decorator';
 export default class VuetifyLogo extends Vue {}
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.vuetify-logo::v-deep .v-image__image {
+  background-color: #eee;
+}
+</style>
