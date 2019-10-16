@@ -1,4 +1,6 @@
 module.exports = {
+  setupFiles: ['./polyfills/index.js'],
+  browser: true,
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
@@ -9,6 +11,4 @@ module.exports = {
     '^.+\\.[jt]s$': 'babel-jest',
     '.*\\.(vue)$': 'vue-jest',
   },
-  collectCoverage: true,
-  collectCoverageFrom: ['<rootDir>/components/**/*.vue', '<rootDir>/pages/**/*.vue'],
 };
