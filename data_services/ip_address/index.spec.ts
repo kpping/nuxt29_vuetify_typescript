@@ -13,6 +13,7 @@ it('should call get and resolve `some_address`', async () => {
     const result = await getIpAddress(mockedClient)();
 
     expect(mockGetFx).toBeCalledTimes(1);
+    expect(mockGetFx).toBeCalledWith('https://icanhazip.com');
     expect(mocTextFx).toBeCalledTimes(1);
 
     expect(result).toBe('some_address');
