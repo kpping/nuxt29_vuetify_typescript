@@ -1,6 +1,5 @@
 module.exports = {
   setupFiles: ['./polyfills/index.js'],
-  browser: true,
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
