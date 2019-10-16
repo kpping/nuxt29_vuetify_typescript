@@ -1,3 +1,10 @@
+## v0.2.0
+* upgrade libs
+* rename `ip_adress` store function
+* use `ky` instead of `axios`
+* add `intersection-observer` polyfill for `test`
+* remove `test coverage`
+
 ## v0.1.5
 * fix bug icon not display
 * change lint `prettier/prettier` to warn
