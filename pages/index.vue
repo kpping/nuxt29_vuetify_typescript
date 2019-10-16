@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
-import { ipAddressVuexNamespace } from '~/store/ip_address/const';
+import { IP_ADDRESS_NS } from '~/store/ip_address/const';
 
 @Component({
   components: {
@@ -24,10 +24,10 @@ import { ipAddressVuexNamespace } from '~/store/ip_address/const';
   },
 })
 export default class IndexPage extends Vue {
-  @ipAddressVuexNamespace.Getter('myIpAddress')
+  @IP_ADDRESS_NS.Getter('myIpAddress')
   private ipAddress!: string;
 
-  @ipAddressVuexNamespace.Action('getIpAddress')
+  @IP_ADDRESS_NS.Action('getIpAddress')
   private getIpAddress!: () => void;
 }
 </script>
