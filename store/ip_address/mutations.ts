@@ -2,7 +2,7 @@ import { MutationTree } from 'vuex';
 import { IpAddressState } from './types';
 
 export const mutations: MutationTree<IpAddressState> = {
-    updateIpAddress(state, newValue) {
+    UPDATE_IP_ADDRESS(state, newValue) {
         state.value = newValue;
     },
 };

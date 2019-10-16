@@ -1,3 +1,3 @@
 import { namespace } from 'vuex-class';
 
-export const ipAddressVuexNamespace = namespace('ip_address/');
+export const IP_ADDRESS_NS = namespace('ip_address/');
