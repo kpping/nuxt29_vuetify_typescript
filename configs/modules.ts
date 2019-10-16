@@ -1,5 +1,5 @@
 import { Configuration } from '@nuxt/types';
 
-const modules: Configuration['modules'] = ['@nuxtjs/axios'];
+const modules: Configuration['modules'] = [];
 
 export default modules;

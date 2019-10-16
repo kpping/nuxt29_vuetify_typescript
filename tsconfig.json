@@ -39,8 +39,7 @@
       "@types/node",
       "@nuxt/types",
       "@types/jest",
-      "vuetify",
-      "@nuxtjs/axios/types"
+      "vuetify"
     ]
   }
 }
