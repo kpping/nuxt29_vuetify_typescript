@@ -1,3 +1,8 @@
+## v0.2.1
+* upgrade libs
+* rename `test` dir to `test_unit`
+* increase required nodejs version
+
 ## v0.2.0
 * upgrade libs
 * rename `ip_adress` store function
