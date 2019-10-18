@@ -1,6 +1,6 @@
 {
   "name": "nuxt29_vuetify_typescript",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "plain setup nuxtjs 2.9 (with vuetify and typescript) project",
   "author": "kpping",
   "license": "MIT",
@@ -19,15 +19,15 @@
     "ky": "^0.15.0",
     "ky-universal": "^0.3.0",
     "nuxt": "^2.10.1",
-    "nuxt-property-decorator": "^2.4.0"
+    "nuxt-property-decorator": "^2.4.1"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.3.3",
+    "@babel/preset-typescript": "^7.6.0",
     "@mdi/font": "^4.5.95",
     "@nuxt/types": "^0.3.1",
     "@nuxt/typescript-build": "^0.3.1",
     "@nuxtjs/eslint-config": "^1.1.2",
-    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/eslint-module": "^1.1.0",
     "@nuxtjs/vuetify": "^1.9.0",
     "@types/jest": "^24.0.19",
     "@types/node": "^10",
@@ -41,13 +41,13 @@
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-nuxt": "^0.4.3",
-    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "fibers": "^4.0.1",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "sass": "^1.23.0",
     "sass-loader": "^8.0.0",
     "vue-jest": "^4.0.0-beta.2",
-    "vuetify": "^2.1.4"
+    "vuetify": "^2.1.5"
   }
 }
