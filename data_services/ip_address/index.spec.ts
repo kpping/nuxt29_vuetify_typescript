@@ -8,7 +8,7 @@ it('should call get and resolve `some_address`', async () => {
     const mockGetFx = jest.fn();
     mockGetFx.mockReturnValueOnce({ text: mocTextFx });
 
-    const mockedClient = <KyInstance>(<unknown>{ get: mockGetFx });
+    const mockedClient = ({ get: mockGetFx } as unknown) as KyInstance;
 
     const result = await getIpAddress(mockedClient)();
 

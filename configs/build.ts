@@ -1,6 +1,7 @@
 import { Configuration } from '@nuxt/types';
+import { Options as SassOptions } from 'node-sass';
 
-const ScssSass = (style: 'scss' | 'sass') => ({
+const ScssSass = (style: 'scss' | 'sass'): SassOptions => ({
     implementation: require('sass'),
     sassOptions: {
         fiber: require('fibers'),
