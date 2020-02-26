@@ -10,7 +10,7 @@
     "ts-shim.d.ts"
   ],
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2018",
     "module": "esnext",
     "moduleResolution": "node",
     "lib": [
