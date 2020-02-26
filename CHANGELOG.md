@@ -1,3 +1,8 @@
+## v0.2.3
+* use `@nuxtjs/eslint-config-typescript`
+* update lint rules
+* add `yarn format:config` script
+
 ## v0.2.2
 * upgrade libs
 * fix webpack bug by installing `loglevel` (temp fix)
