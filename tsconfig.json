@@ -1,23 +1,12 @@
 {
-  "include": [
-    "**/*.ts",
-    "**/*.vue"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
-  "files": [
-    "ts-shim.d.ts"
-  ],
+  "include": ["**/*.ts", "**/*.vue"],
+  "exclude": ["node_modules"],
+  "files": ["ts-shim.d.ts"],
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",
     "moduleResolution": "node",
-    "lib": [
-      "esnext",
-      "esnext.asynciterable",
-      "dom"
-    ],
+    "lib": ["esnext", "esnext.asynciterable", "dom"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -28,18 +17,9 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
+      "~/*": ["./*"],
+      "@/*": ["./*"]
     },
-    "types": [
-      "@types/node",
-      "@nuxt/types",
-      "@types/jest",
-      "vuetify"
-    ]
+    "types": ["@types/node", "@nuxt/types", "@types/jest", "vuetify"]
   }
 }
