@@ -1,6 +1,6 @@
 {
   "name": "nuxt29_vuetify_typescript",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "plain setup nuxtjs 2.9 (with vuetify and typescript) project",
   "author": "kpping",
   "license": "MIT",
@@ -9,9 +9,11 @@
     "cp:localhost": "cpy env/localhost.ts configs --rename=env.ts",
     "dev": "cross-env HOST=0.0.0.0 PORT=8080 nuxt-ts",
     "dev:localhost": "yarn cp:localhost && yarn dev",
+    "format:config": "prettier --write './*.{ts,js,json}'",
     "generate": "nuxt-ts generate",
+    "generate:localhost": "yarn cp:localhost && yarn generate",
     "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.3.9",
@@ -26,7 +28,7 @@
     "@mdi/font": "^4.9.95",
     "@nuxt/types": "^0.6.2",
     "@nuxt/typescript-build": "^0.5.7",
-    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/eslint-config-typescript": "^1.0.2",
     "@nuxtjs/eslint-module": "^1.1.0",
     "@nuxtjs/vuetify": "^1.11.0",
     "@types/jest": "^25.1.3",
