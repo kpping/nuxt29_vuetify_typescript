@@ -1,3 +1,8 @@
+## v0.2.2
+* upgrade libs
+* fix webpack bug by installing `loglevel` (temp fix)
+* change target to es2018
+
 ## v0.2.1
 * upgrade libs
 * rename `test` dir to `test_unit`
